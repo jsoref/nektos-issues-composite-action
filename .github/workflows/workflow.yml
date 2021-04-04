@@ -1,0 +1,9 @@
+on:
+  workflow_dispatch:
+  push:
+
+jobs:
+  local-action:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: jsoref/gha-debug@2b69872723fa2d51dcc8baa4ebc1c4987d07dd15
